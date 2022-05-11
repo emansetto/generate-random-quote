@@ -1,0 +1,51 @@
+@font-face {
+    font-family: impact;
+    src: url(fonts/impact.ttf);
+}
+body
+{
+    min-height: 100vh !important;
+
+}
+*
+{
+box-sizing: border-box;
+
+}
+
+.wrapper
+{ 
+   
+    height: 100%;
+    text-align: center;
+}
+.container
+{
+
+    height: 100%;
+}
+h1
+{
+    font-size: 80px;
+    margin: 53px 0 ; 
+    font-weight: 500;
+    font-family: impact, sans-serif;
+}
+p
+{
+font-size: 35px;
+font-weight: 100;
+margin: 35px 0 ;
+font-family: 'Times New Roman', Times, serif;
+}
+button
+{
+    width: 250px;
+    height: 80px;
+    color: white;
+    
+}
+button:hover
+{
+background-color: cadetblue;
+}
